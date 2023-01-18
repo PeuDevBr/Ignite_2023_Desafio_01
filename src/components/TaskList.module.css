@@ -1,0 +1,94 @@
+.taskList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 736px;
+    left: calc(50% - 736px/2);
+    top: 291px;
+
+
+    font-family: 'Inter';
+    font-weight: 700;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 736px;
+    height: 19px;
+}
+
+.created {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.created p {
+    color: var(--blue);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.done {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.done p {
+    color: var(--PurpleDark);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    height: 19px;
+    width: 55px;
+    border-radius: 999px;
+}
+
+.counter p {
+    color: var(--gray-200);
+    font-size: 12px;
+}
+
+.empty {
+    width: 736px;
+    height: 244px;
+    border-top: 1px solid var(--gray-400);
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.empty img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 1rem;
+}
+
+.empty strong {
+    font-weight: 700;
+    color: var(--gray-300);
+    font-size: 16px;
+}
+
+.empty p {
+    font-weight: 400;
+    color: var(--gray-300);
+    font-size: 16px;
+}
